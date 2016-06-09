@@ -1,0 +1,188 @@
+/*!
+ * cache=true
+ * @license Licences are viewable at this URL: http://w.cdn.gaiaonline.com/src/=/e143bb5df5304ae98988a03a4dabca2e-1351-50/src/css/collections/add.css
+ */
+
+
+/*! /src/css/collections/add.css */
+.possible_favorite .user_container,
+.possible_favorite .avatar_wrapper,
+#landingAvatar,
+#landingText,
+#voteTextContainer,
+#landing-post-header,
+#my-vote{
+    position: relative;
+}
+.favorites_add.avatar{
+    cursor: pointer;
+    display: block;
+    width: 16px;
+    height: 15px;
+    right: 2px;
+    top: 4px;
+    position: absolute;
+    background: transparent url(http://s.cdn.gaiaonline.com/images/icons/heartIcon2_small.png) no-repeat !important;
+}
+
+.avatar_wrapper .avatar{
+    right: 15px;
+}
+.details_panel .avatar{
+    top: 40px;
+    right: 15px;
+}
+.favorites_add.thread{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 28px;
+    background: transparent url(http://s.cdn.gaiaonline.com/images/collections/fav_heart.png) no-repeat !important;
+}
+
+.favorites_add.guild{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background: transparent url(http://s.cdn.gaiaonline.com/images/collections/fav_heart.png) no-repeat !important;
+}
+
+.favorites_add.arena{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background: transparent url(http://s.cdn.gaiaonline.com/images/collections/fav_heart.png) no-repeat !important;
+}
+
+#header_right .avatar{
+    position:relative;
+    display:inline-block;
+}
+.favorites_add span{
+    visibility: hidden;
+}
+
+#add_favorite_avatar_modal,
+#add_favorite_thread_modal,
+#add_favorite_guild_modal,
+#add_favorite_arena_modal,
+#add_refavorite_modal{
+    color: #4d4e53;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+#add_favorite_avatar_modal .container-close,
+#add_favorite_thread_modal .container-close,
+#add_favorite_guild_modal .container-close,
+#add_favorite_arena_modal .container-close,
+#add_refavorite_modal .container-close{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: transparent url(http://s.cdn.gaiaonline.com/images/collections/close.png) no-repeat;
+}
+#add_favorite_avatar_modal a,
+#add_favorite_thread_modal a,
+#add_favorite_guild_modal a,
+#add_favorite_arena_modal a,
+#add_refavorite_modal a{
+    text-decoration: none;
+    display: block;
+}
+#add_favorite_avatar_modal #add_favorite_avatar_modal_h,
+#add_favorite_thread_modal #add_favorite_thread_modal_h,
+#add_favorite_guild_modal #add_favorite_guild_modal_h,
+#add_favorite_arena_modal #add_favorite_arena_modal_h,
+#add_refavorite_modal #add_refavorite_modal_h{
+    background-color: #afafaf;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+#add_favorite_avatar_modal .bd,
+#add_favorite_thread_modal .bd,
+#add_favorite_guild_modal .bd,
+#add_favorite_arena_modal .bd,
+#add_refavorite_modal .bd{
+    margin: 20px;
+    height: 200px !important;
+}
+#add_favorite_avatar_modal ul,
+#add_favorite_thread_modal ul,
+#add_favorite_guild_modal ul,
+#add_favorite_arena_modal ul,
+#add_refavorite_modal ul{
+    width: 100%;
+}
+#add_favorite_avatar_modal li,
+#add_favorite_thread_modal li,
+#add_favorite_guild_modal li,
+#add_favorite_arena_modal li,
+#add_refavorite_modal li{
+    list-style-type: none;
+    overflow: hidden;
+}
+#add_favorite_avatar_modal li p,
+#add_favorite_thread_modal li p,
+#add_favorite_guild_modal li p,
+#add_favorite_arena_modal li p,
+#add_refavorite_modal li p{
+    width: 100px;
+    float: left;
+}
+#add_favorite_avatar_modal li #comment,
+#add_favorite_thread_modal li #comment,
+#add_favorite_guild_modal li #comment,
+#add_favorite_arena_modal li #comment,
+#add_refavorite_modal li #comment{
+    width: 230px;
+    height: 110px;
+}
+#add_favorite_avatar_modal li #hashtags,
+#add_favorite_thread_modal li #hashtags,
+#add_favorite_guild_modal li #hashtags,
+#add_favorite_arena_modal li #hashtags,
+#add_refavorite_modal li #hashtags{
+    width: 230px;
+    height: 40px;
+}
+#add_favorite_avatar_modal .ft,
+#add_favorite_thread_modal .ft,
+#add_favorite_guild_modal .ft,
+#add_favorite_arena_modal .ft,
+#add_refavorite_modal .ft{
+    width: 245px;
+    padding: 0 117px;
+}
+#add_favorite_avatar_modal .ft a,
+#add_favorite_thread_modal .ft a,
+#add_favorite_guild_modal .ft a,
+#add_favorite_arena_modal .ft a,
+#add_refavorite_modal .ft a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #afafaf;
+}
+#add_favorite_avatar_modal .ft a:hover,
+#add_favorite_thread_modal .ft a:hover,
+#add_favorite_guild_modal .ft a:hover,
+#add_favorite_arena_modal .ft a:hover,
+#add_refavorite_modal .ft a:hover{
+    background-color: #8d93af;
+    border: 1px solid #898989;
+}

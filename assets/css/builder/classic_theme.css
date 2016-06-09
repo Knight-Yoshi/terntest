@@ -1,0 +1,134 @@
+    *{margin:0;padding:0;}
+    ul li{list-style-type:none;}
+    dl dt{font-weight:bold;}
+    #site{width:760px;position:relative;}
+
+/* CONTENT */
+    #content{padding:10px 0 10px 0;}
+    #content #sidebar{position:absolute;width:230px;left:10px;}
+    #content #main{margin-left:230px;min-height:500px;height:500px;border-left:2px solid #D8E9F3;}
+    #content > #main{height:auto;}
+
+/* SECTION */
+    .section{padding:0 10px 10px 10px;font-size:12px;}
+    .section h2{font-size:15px;margin:0 -10px 0 -10px;height:25px;margin-bottom:10px;line-height:25px;text-indent:-5000px;/* PHARK */}
+    .section .clear{clear:both;}
+    .section .head{width:48px;height:48px;}
+    .section .torso{width:96px;height:96px;}
+    .section .body{width:120px;height:150px;}
+    .section .items li{display:inline;}
+    .section .items li img{width:30px;height:30px;}
+    .section .online{background:url(/assets/images/builder/common/status_online.gif) top left no-repeat;}
+    .section .offline{background:url(/assets/images/builder/common/status_offline.gif) top left no-repeat;}
+    .section .hidden{background:url(/assets/images/builder/common/status_hidden.gif) top left no-repeat;}
+    .section .links{margin-bottom:10px;}
+    .section .links li{display:inline;}
+    .section .date{text-align:right;font-size:10px;font-weight:normal;font-style:italic;margin:0 0 3px 3px;}
+
+/* CAPTION */
+    .caption{border:2px solid #6F7074;background:#FFF;}
+    .caption2{border:2px solid #6F7074;background:#FFF;}
+    .caption:before{display:block;margin:-2px -2px -2px -2px;content:url(/assets/images/builder/common/caption_tl.gif);background:url(/assets/images/builder/common/caption_tr.gif) top right no-repeat;line-height:.1;}
+    .caption:after{display:block;margin:-2px -2px -2px -2px;content:url(/assets/images/builder/common/caption_bl.gif);background:url(/assets/images/builder/common/caption_br.gif) bottom right no-repeat;line-height:.1;}
+    .caption2:before{display:block;margin:-2px -2px -2px -2px;content:url(/assets/images/builder/common/caption_tl.gif);background:url(/assets/images/builder/common/caption_tr.gif) top right no-repeat;line-height:.1;}
+    .caption2:after{display:block;margin:-2px -2px -2px -2px;content:url(/assets/images/builder/common/caption_bl.gif);background:url(/assets/images/builder/common/caption_br.gif) bottom right no-repeat;line-height:.1;}
+    .caption .message{position:relative;left:-22px;padding:0 0 0 32px;min-height:45px;margin:0 -12px 0 0;background:url(/assets/images/builder/common/caption_ml.gif) top left no-repeat;font-size:13px;font-weight:normal;height:45px;}
+    .caption2 .message{position:relative;right:-22px;padding:0 32px 0 0;min-height:45px;margin:0 0 0 -12px;background:url(/assets/images/builder/common/caption_mr.gif) top right no-repeat;font-size:13px;font-weight:normal;height:45px;}
+    .caption > .message{height:auto;}
+    .caption2 > .message{height:auto;}
+
+/* ACCOUNT */
+    form{margin:0 150px;}
+    textarea{width:100%;height:100px;}
+    .textfield{width:100%;}
+    label{font-weight:bold;}
+    fieldset{margin-bottom:10px;}
+    #account ul li{display:inline;}
+
+/* Common Friends */
+    #commonFriends p{font-weight:bold;}
+    #commonFriends ul{font-size:10px;margin-bottom:10px;}
+    #commonFriends ul li{display:inline;}
+
+/* PROFILE BAR */
+    #bar{display:block;height:22px;margin-left:12px;background:url(/assets/images/builder/common/action_bar_frontcap.gif) top left no-repeat}
+    #bar li{float:left;}
+    #bar #onlineButton{width:60px;background:transparent url(/assets/images/builder/common/bar_btn_online.gif);text-indent:-5000px;height:22px;}
+    #bar #offlineButton{width:60px;background:transparent url(/assets/images/builder/common/bar_btn_offline.gif);text-indent:-5000px;height:22px;}
+    #bar #hiddenButton{width:60px;background:transparent url(/assets/images/builder/common/bar_btn_hidden.gif);text-indent:-5000px;height:22px;}
+    #bar #addButton{background:transparent url(/assets/images/builder/common/bar_btn_addfriend.gif);}
+    #bar #msgButton{background:transparent url(/assets/images/builder/common/bar_btn_pm.gif);}
+    #bar #tradeButton{background:transparent url(/assets/images/builder/common/bar_btn_trade.gif);}
+    #bar #ignoreButton{background:transparent url(/assets/images/builder/common/bar_btn_ignore.gif);}
+    #bar a{display:block;height:0;padding-top:22px;color:#000;overflow:hidden;}
+    * html #bar a:link, * html #bar a:visited{height:22px;he\ight:0;}
+
+/* Add hover images here:-) */
+    #bar #addButton a{width:33px;background:transparent url(/assets/images/builder/common/bar_btn_addfriend.gif) -22px -90px no-repeat;}
+    #bar #msgButton a{width:29px;background:transparent url(/assets/images/builder/common/bar_btn_pm.gif) -22px -90px no-repeat;}
+    #bar #tradeButton a{width:28px;background:transparent url(/assets/images/builder/common/bar_btn_trade.gif) -22px -90px no-repeat;}
+    #bar #ignoreButton a{width:34px;background:transparent url(/assets/images/builder/common/bar_btn_ignore.gif) -22px -90px no-repeat;}
+    #bar #addButton a:hover{background-position:0 0;z-index:50;}
+    #bar #msgButton a:hover{background-position:0 0;z-index:50;}
+    #bar #tradeButton a:hover{background-position:0 0;z-index:50;}
+    #bar #ignoreButton a:hover{background-position:0 0;z-index:50;}
+    * html #bar a:hover{height:22px;he\ight:0;}
+
+/* PROFILE */
+    #profile{background:#FFF;position:relative;}
+    #profile h2{background:#185BC2;color:#FFF;text-align:center;font-size:14px;font-weight:bold;/* UN-PHARK */text-indent:0;}
+    #profile .avatar{position:relative;}
+    #profile .caption{position:absolute;top:70px;left:110px;width:105px;}
+    #profile .status{background:url(/assets/images/builder/classic/action_bar_frontcap.gif) top left no-repeat;margin-left:10px;}
+
+/* DETAILS */
+    #details{background:#FFF url(/assets/images/builder/classic/details_header_tile.gif) top left repeat-x;}
+    #details h2{background:url(/assets/images/builder/classic/details_header.gif) top left no-repeat;}
+    #details #info{width:97px;}
+    #details #stats{float:right;width:100px;margin:0 0 10px 10px;}
+
+/* WISHLIST */
+    #wishlist{background:#FFF url(/assets/images/builder/classic/wishlist_header_tile.gif) top left repeat-x;}
+    #wishlist h2{background:url(/assets/images/builder/classic/wishlist_header.gif) top left no-repeat;}
+    #wishlist .questing{background:url(/assets/images/builder/common/wishlist_questing.gif) top right no-repeat;}
+    #wishlist .bought{background:url(/assets/images/builder/common/wishlist_bought.gif) top right no-repeat;}
+    #wishlist .donated{background:url(/assets/images/builder/common/wishlist_donated.gif) top right no-repeat;}
+
+/* ABOUT */
+    #about{background:#FFF url(/assets/images/builder/classic/about_header_tile.gif) top left repeat-x;}
+    #about h2{background:url(/assets/images/builder/classic/about_header.gif) top left no-repeat;}
+
+/* FRIENDS */
+    #friends{background:#FFF url(/assets/images/builder/classic/friends_header_tile.gif) top left repeat-x;}
+    #friends h2{background:url(/assets/images/builder/classic/friends_header.gif) top left no-repeat;}
+    #friends #friendGroup{margin-top:10px;}
+    #friends #friendGroup li{float:left;width:110px;height:130px;text-align:center;border-right:2px solid #D8E9F3;}
+    #friends #friendGroup li img{width:96px;height:96px;}
+
+/* JOURNAL */
+    #journal{background:#FFF url(/assets/images/builder/classic/journal_header_tile.gif) top left repeat-x;}
+    #journal h2{background:url(/assets/images/builder/classic/journal_header.gif) top left no-repeat;}
+
+/* MULTIMEDIA */
+    #multimedia{background:#FFF url(/assets/images/builder/classic/multimedia_header_tile.gif) top left repeat-x;}
+    #multimedia h2{background:url(/assets/images/builder/classic/multimedia_header.gif) top left no-repeat;}
+
+/* COMMENTS */
+    #comments{background:#FFF url(/assets/images/builder/classic/comments_header_tile.gif) top left repeat-x;}
+    #comments h2{background:url(/assets/images/builder/classic/comments_header.gif) top left no-repeat;}
+    #comments dl{padding-bottom:90px;}
+    #comments dl dt{position:relative;padding-top:10px;}
+    #comments dl dt.avatar img{position:absolute;left:0;}
+    #comments dl dt.avatar2 div{text-align:right;}
+    #comments dl dt.avatar2 img{position:absolute;right:0;width:120px;}
+    #comments dl dd{margin:0 120px 0 100px;}
+    #comments .delete{margin-top:10px;text-align:right;}
+    #comments #pagination li{display:inline;}
+    #comments .admin li{text-align:right;}
+    #comments form{margin:0px;}
+    #comments fieldset{padding:10px;}
+
+/* SIGNATURE */
+    #signature{background:#FFF url(/assets/images/builder/classic/signature_header_tile.gif) top left repeat-x;}
+    #signature h2{background:url(/assets/images/builder/classic/signature_header.gif) top left no-repeat;}
+    #signature p{text-align:center;}

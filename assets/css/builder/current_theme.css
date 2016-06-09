@@ -1,0 +1,9 @@
+/* User-chosen Profile Theme */
+.panel{padding: 15px;}
+.panel h2{margin:-5px -5px 10px -5px;padding:5px 6px;background:#aaa;text-align:left;text-transform:uppercase;font-weight:bold;color:#fff;font-size:10px;}
+html { background: url("http://s.cdn.gaiaonline.com/images/profiles/v2/backgrounds/bg_cloud.jpg") repeat; }
+body { background:  no-repeat; }
+.panel h2{background:#6396E7;color:#fff;}
+.panel{background:#fff;color:#000;}
+a{color:#6396E7;}
+#header a{color:#6396E7;}

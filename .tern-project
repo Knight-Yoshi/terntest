@@ -1,0 +1,39 @@
+{
+  "ecmaVersion": 6,
+  "plugins": {
+    "guess-types": {
+      
+    },
+    "outline": {
+      
+    },
+    "es_modules": {
+      
+    },
+    "eslint": {
+      "configFile": "eslint.json"
+    },
+    "complete_strings": {
+      
+    },
+    "highlight": {
+      
+    },
+    "doc_comment": {
+      
+    },
+    "node": {
+      
+    },
+    "gulp": {
+      
+    }
+  },
+  "libs": [
+    "ecma5",
+    "ecma6",
+    "browser",
+    "jquery",
+    "fetch"
+  ]
+}
